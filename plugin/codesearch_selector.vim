@@ -22,7 +22,7 @@ function s:find_cscope_db(file_name,start_dir,stop_dir)
         if fr == -1
             break
         endif
-        let cur_dir = strpart(here, 0, fr)
+        let cur_dir = strpart(cur_dir, 0, fr)
         if cur_dir == a:stop_dir
             break
         endif
