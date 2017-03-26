@@ -16,5 +16,5 @@ a cscope database is NOT found, the plugin maps the enter key to YcmCompleter
 Goto.
 
 # Prerequisites
-    * valloric/YouCompleteMe
-    * vim-scripts/cscope.vim
+* valloric/YouCompleteMe
+* vim-scripts/cscope.vim
